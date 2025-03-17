@@ -1,0 +1,30 @@
+﻿<form asp-action="Index">
+        
+    <label>chỉ số BMI</label>
+    <input type="text" name="chisoBMI" />
+    <input type="text" name="ten" />
+    <input type="text" name="tuoi" />
+    <input type="number" name="chieucao" />
+    <input type="number" name="cannang" />
+    <input type="submit" value="Tính" />
+
+
+    <label>điểm số</label>
+    <input type="number" name="diemA"/>
+
+    <input type="number" name="diemB" />
+    <input type="number" name="diemC" />
+    <input type="submit" name="tongdiem"
+    <br />
+    <label>đơn hàng</label> 
+    <input type="text" name="donhang1"/>
+    <input type="text" name="donhang2" />
+    <input type="text" name="donhang3" />
+    <input type="submit" name="tongtien" />
+    <br />
+
+
+</form>
+<h1>@ViewBag.BMI</h1>
+<h2>@ViewBag.DMH</h2>
+<h3>@ViewBag.tongtien</h3>
