@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PTPMQL-04\\tinhchisoMBI\\tinhchisoMBI\\tinhchisoMBI.csproj": {}
+    "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\tinhchisoMBI.csproj": {}
   },
   "projects": {
-    "C:\\PTPMQL-04\\tinhchisoMBI\\tinhchisoMBI\\tinhchisoMBI.csproj": {
+    "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\tinhchisoMBI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PTPMQL-04\\tinhchisoMBI\\tinhchisoMBI\\tinhchisoMBI.csproj",
+        "projectUniqueName": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\tinhchisoMBI.csproj",
         "projectName": "tinhchisoMBI",
-        "projectPath": "C:\\PTPMQL-04\\tinhchisoMBI\\tinhchisoMBI\\tinhchisoMBI.csproj",
+        "projectPath": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\tinhchisoMBI.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\PTPMQL-04\\tinhchisoMBI\\tinhchisoMBI\\obj\\",
+        "outputPath": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.7.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

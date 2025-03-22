@@ -1,8 +1,12 @@
-﻿namespace tinhchisoMBI.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace tinhchisoMBI.Models
 {
-    public class chisoBMI
- 
-        {
+    [Table("Persons")]
+    public class Person
+    {
+        [Key]
+        public int Id { get; set; }
         public required string? ten { get; set; }
         public required string? tuoi { get; set; }
         public double chieucao { get; set; }
@@ -13,8 +17,7 @@
         public required string donhang1 { get; set; }
         public required string donhang2 { get; set; }
         public required string? donhang3 { get; set; }
-
+  
     }
-
-    }
+}
 
