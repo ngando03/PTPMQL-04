@@ -3,13 +3,15 @@ using tinhchisoMBI.Models;
 
 namespace tinhchisoMBI.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbcontext : DbContext 
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options)
         {
-        }
 
-        public DbSet<Person> Person { get; set; }  // Thêm bảng của bạn ở đây
+        }
+        public DbSet<Person> Person { get; set; }
+        
     }
+    
+
 }

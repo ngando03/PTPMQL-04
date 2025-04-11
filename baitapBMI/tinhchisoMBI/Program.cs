@@ -4,22 +4,32 @@ using tinhchisoMBI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
+// Cấu hình kết nối đến database (SQLite hoặc SQL Server tùy)
+builder.Services.AddDbContext<ApplicationDbcontext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
+        ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
-
-// Add services to the container.
+// Thêm dịch vụ MVC
 builder.Services.AddControllersWithViews();
+
+// Ép môi trường thành Development để hiện lỗi rõ
+Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", "Development");
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// ✅ Hiện lỗi chi tiết nếu đang ở môi trường Development
+if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    // Nếu là production thì dùng error page riêng
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
+// Cấu hình pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -27,8 +37,19 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//  Cấu hình định tuyến cho các controller
 app.MapControllerRoute(
-    name: "default",
+    name: "home",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "employee",
+    pattern: "employee/{action=Index}/{id?}",
+    defaults: new { controller = "Employee" });
+
+app.MapControllerRoute(
+    name: "person",
+    pattern: "person/{action=Index}/{id?}",
+    defaults: new { controller = "Person" });
 
 app.Run();
