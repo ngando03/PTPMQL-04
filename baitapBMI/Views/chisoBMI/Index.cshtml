@@ -1,0 +1,122 @@
+﻿@model tinhchisoMBI.Models.chisoBMI
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tính toán chỉ số</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="p-4">
+    <div class="container">
+        <h2 class="mb-4">Tính toán</h2>
+        <form asp-action="Index" method="post">
+            <input type="hidden" name="Action" value="" id="actionField" />
+
+            <!-- BMI -->
+            <fieldset class="border p-3 mb-4">
+                <legend>Chỉ số BMI</legend>
+                <div class="mb-2">
+                    <label>Tên:</label>
+                    <input asp-for="Ten" class="form-control" oninput="this.value = this.value.replace(/[^a-zA-Z\u00C0-\u1EF9\s]/g, '')" />
+
+                </div>
+                <div class="mb-2">
+                    <label>Tuổi:</label>
+                    <input asp-for="Tuoi" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Chiều cao (cm):</label>
+                    <input asp-for="ChieuCao" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Cân nặng (kg):</label>
+                    <input asp-for="CanNang" class="form-control" />
+                </div>
+                <button class="btn btn-primary" type="submit" onclick="setAction('Tính BMI')">Tính BMI</button>
+            </fieldset>
+
+            <!-- Điểm -->
+            <fieldset class="border p-3 mb-4">
+                <legend>Điểm số</legend>
+                <div class="mb-2">
+                    <label>Điểm A:</label>
+                    <input asp-for="DiemA" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Điểm B:</label>
+                    <input asp-for="DiemB" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Điểm C:</label>
+                    <input asp-for="DiemC" class="form-control" />
+                </div>
+                <button class="btn btn-success" type="submit" onclick="setAction('Tính điểm')">Tính điểm</button>
+            </fieldset>
+
+            <!-- Đơn hàng -->
+            <fieldset class="border p-3 mb-4">
+                <legend>Đơn hàng</legend>
+                <div class="mb-2">
+                    <label>Đơn hàng 1:</label>
+                    <input asp-for="DonHang1" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Đơn hàng 2:</label>
+                    <input asp-for="DonHang2" class="form-control" />
+                </div>
+                <div class="mb-2">
+                    <label>Đơn hàng 3:</label>
+                    <input asp-for="DonHang3" class="form-control" />
+                </div>
+                <button class="btn btn-warning" type="submit" onclick="setAction('Tính tổng tiền')">Tính tổng tiền</button>
+            </fieldset>
+        </form>
+
+        <hr />
+        <!-- Kết quả -->
+        @if (Model.BMI != null)
+        {
+        <h4 class="text-primary">BMI của @Model.Ten (Tuổi: @Model.Tuoi): <strong>@Model.BMI.Value.ToString("0.00")</strong></h4>
+        }
+        @if (Model.DiemTong != null)
+        {
+        <h4 class="text-success">Tổng điểm: <strong>@Model.DiemTong</strong></h4>
+        }
+        @if (Model.TongTien != null)
+        {
+        <h4 class="text-warning">Tổng tiền đơn hàng: <strong>@Model.TongTien VNĐ</strong></h4>
+        }
+        <a href="/chisoBMI/Download" class="btn btn-success">Tải Excel</a>
+
+
+
+    </div>
+
+    <script>
+        function setAction(action) {
+            document.getElementById("actionField").value = action;
+        }
+    </script>
+</body>
+</html>
+            <h2>Upload Excel File</h2>
+
+            <form asp-action="Upload" enctype="multipart/form-data" method="post">
+                <div>
+                    <input type="file" name="file" />
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </div>
+            </form>
+
+            @if (!string.IsNullOrEmpty(ViewBag.Message))
+            {
+                <p style="color: green">@ViewBag.Message</p>
+            }
+
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p style="color: red">@error.ErrorMessage</p>
+            }

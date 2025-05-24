@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\",
+  "WorkspaceRootPath": "C:\\PTPMQL-04\\baitapBMI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\controllers\\chisobmicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\controllers\\chisobmicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\controllers\\chisobmicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\views\\chisobmi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\views\\chisobmi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\views\\chisobmi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\users\\acer\\source\\repos\\tinhchisombi\\tinhchisombi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|c:\\ptpmql-04\\baitapbmi\\tinhchisombi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B274686-C404-489A-B4D6-B97F03AE0D20}|tinhchisoMBI\\tinhchisoMBI.csproj|solutionrelative:tinhchisombi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,94 +62,101 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "tinhchisoMBI\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "tinhchisoMBI\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Program.cs",
+              "RelativeDocumentMoniker": "tinhchisoMBI\\Program.cs",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Program.cs*",
+              "RelativeToolTip": "tinhchisoMBI\\Program.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:19:45.486Z",
+              "WhenOpened": "2025-04-11T09:44:22.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "tinhchisoMBI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "tinhchisoMBI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T02:19:45.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Models\\Person.cs",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Models\\Person.cs",
               "RelativeDocumentMoniker": "tinhchisoMBI\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Models\\Person.cs",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Models\\Person.cs",
               "RelativeToolTip": "tinhchisoMBI\\Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T01:19:05.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T01:19:05.494Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
               "RelativeDocumentMoniker": "tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
               "RelativeToolTip": "tinhchisoMBI\\Views\\chisoBMI\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T01:21:42.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T01:21:42.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "chisoBMIController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Controllers\\chisoBMIController.cs",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Controllers\\chisoBMIController.cs",
               "RelativeDocumentMoniker": "tinhchisoMBI\\Controllers\\chisoBMIController.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Controllers\\chisoBMIController.cs",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Controllers\\chisoBMIController.cs",
               "RelativeToolTip": "tinhchisoMBI\\Controllers\\chisoBMIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T01:20:05.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "tinhchisoMBI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "tinhchisoMBI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T01:31:20.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "tinhchisoMBI\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "tinhchisoMBI\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T01:27:46.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T01:31:20.477Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "tinhchisoMBI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "tinhchisoMBI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T01:27:46.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "tinhchisoMBI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Acer\\source\\repos\\tinhchisoMBI\\tinhchisoMBI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\PTPMQL-04\\baitapBMI\\tinhchisoMBI\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "tinhchisoMBI\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T01:27:45.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T01:27:45.748Z"
             }
           ]
         }

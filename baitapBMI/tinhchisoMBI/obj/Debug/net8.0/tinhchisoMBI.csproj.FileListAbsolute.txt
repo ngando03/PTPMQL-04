@@ -136,7 +136,6 @@ C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\NuGet.Common.dll
@@ -160,7 +159,6 @@ C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Composition.Runtime.
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Composition.TypedParts.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.IO.Pipelines.dll
@@ -378,7 +376,9 @@ C:\PTPMQL-04\baitapBMI\tinhchisoMBI\obj\Debug\net8.0\refint\tinhchisoMBI.dll
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\obj\Debug\net8.0\tinhchisoMBI.pdb
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\obj\Debug\net8.0\tinhchisoMBI.genruntimeconfig.cache
 C:\PTPMQL-04\baitapBMI\tinhchisoMBI\obj\Debug\net8.0\ref\tinhchisoMBI.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Xml.XPath.XmlDocument.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\PTPMQL-04\baitapBMI\tinhchisoMBI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
